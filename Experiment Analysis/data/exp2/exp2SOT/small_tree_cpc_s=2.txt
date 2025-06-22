@@ -1,0 +1,45 @@
+Depth: 2
+Num initial states: 1
+	[-0.05, 0.05, 0.05, 0.05]
+State 0: [-0.05, 0.05, 0.05, 0.05]
+No Action Policy recognized
+Starting: Cartpole Continuous
+Predicate increments:
+	f0: 0.1
+	f1: 0.1
+	f2: 0.05
+	f3: 0.1
+with actions : [-0.75, -0.47, -0.40, 0.06, 0.35, 0.57]
+Starting broccoli...
+...10 [0 nodes] (4.67µs)
+...12 [0 nodes] (10.08µs)
+...51 [0 nodes] (15.67µs)
+[d = 1, n = 1]
+...54 [1 nodes] (114.04µs)
+...83 [1 nodes] (268.17µs)
+...84 [1 nodes] (520.46µs)
+...219 [1 nodes] (549.04µs)
+[d = 2, n = 2]
+...271 [2 nodes] (2.51ms)
+...449 [2 nodes] (2.54ms)
+...999 [2 nodes] (2.58ms)
+...1772 [2 nodes] (3.82ms)
+...1954 [2 nodes] (20.34ms)
+...2205 [2 nodes] (36.87ms)
+...6523 [2 nodes] (41.21ms)
+...7170 [2 nodes] (76.58ms)
+...9258 [2 nodes] (81.01ms)
+...10000 [2 nodes] (213.52ms)
+[d = 2, n = 3]
+Trees with unused nodes: 44340
+Runtime: 225.48ms
+Num explicitly considered trees: 180063
+Num environment calls: 138195
+Score: 10000
+Tree:
+n0: [x_1 >= 0.30] (9999)
+n1: a: 0 (904)
+n2: [x_2 >= -0.02] (9095)
+n5: a: 4 (6037)
+n6: a: 1 (3058)
+

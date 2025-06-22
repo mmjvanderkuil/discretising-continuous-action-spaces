@@ -1,0 +1,40 @@
+Depth: 2
+Num initial states: 1
+	[-0.5, 0.0]
+State 0: [-0.5, 0.0]
+No Action Policy recognized
+Starting: Mountain Car Continuous
+Predicate increments:
+	f0: 0.1
+	f1: 0.01
+with actions : [-0.82, -0.52, -0.09, 0.66, 0.72, 0.93]
+Starting broccoli...
+[d = 1, n = 1]
+...89.51580000000001 [1 nodes] (5.39ms)
+...90.51564000000002 [1 nodes] (5.40ms)
+...92.68471999999997 [1 nodes] (5.61ms)
+...92.99025999999998 [1 nodes] (7.06ms)
+[d = 2, n = 2]
+...93.62442999999999 [2 nodes] (63.20ms)
+...94.08608999999997 [2 nodes] (129.26ms)
+...94.6948 [2 nodes] (141.72ms)
+[d = 2, n = 3]
+...94.71732 [3 nodes] (8.17s)
+...94.77745999999999 [3 nodes] (13.14s)
+...95.07468999999999 [3 nodes] (13.15s)
+...95.09099999999998 [3 nodes] (17.31s)
+...95.12524 [3 nodes] (17.57s)
+Trees with unused nodes: 360834
+Runtime: 27.41s
+Num explicitly considered trees: 842487
+Num environment calls: 842487
+Score: 95.12524
+Tree:
+n0: [x_0 >= -0.50] (371)
+n1: [x_1 >= 0.03] (168)
+n2: [x_1 >= 0.00] (203)
+n3: a: 3 (28)
+n4: a: 2 (140)
+n5: a: 3 (79)
+n6: a: 2 (124)
+

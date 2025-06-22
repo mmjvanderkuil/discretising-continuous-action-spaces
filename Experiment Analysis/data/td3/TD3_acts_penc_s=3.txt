@@ -1,0 +1,20 @@
+Depth: 2
+Num initial states: 1
+	[0.5, 0.0]
+State 0: [0.5, 0.0]
+No Action Policy recognized
+Starting: Pendulum
+Predicate increments:
+	f0: 0.1
+	f1: 0.1
+with actions : [-1.57, -1.51, -1.48, -0.28]
+Starting broccoli...
+[d = 1, n = 1]
+[d = 2, n = 2]
+[d = 2, n = 3]
+Trees with unused nodes: 386214
+Runtime: 136.82s
+Num explicitly considered trees: 29890829
+Num environment calls: 29890829
+No tree found.
+No tree found.

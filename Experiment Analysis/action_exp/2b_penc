@@ -1,0 +1,10 @@
+echo 'exp2a penc 0' 
+./target/release/broccoli --env penc --depth 2 --num-nodes 3 --num-iters 100 --action-policy none --predicate-increment 0.1 0.1 --initial-state-values 0.5 0 --predicate-reasoning 1 --actions -1.421 -0.237 -0.236 -0.236 -0.236 -0.236 -0.236 0.978   > TD3_acts_penc_s=0.txt
+echo 'exp2a penc 1' 
+./target/release/broccoli --env penc --depth 2 --num-nodes 3 --num-iters 100 --action-policy none --predicate-increment 0.1 0.1 --initial-state-values 0.5 0 --predicate-reasoning 1 --actions -1.557 -0.236 -0.236 -0.236 -0.236 -0.236 0.155 0.598   > TD3_acts_penc_s=1.txt
+echo 'exp2a penc 2' 
+./target/release/broccoli --env penc --depth 2 --num-nodes 3 --num-iters 100 --action-policy none --predicate-increment 0.1 0.1 --initial-state-values 0.5 0 --predicate-reasoning 1 --actions -1.421 -0.259 -0.236 -0.236 -0.236 -0.236 -0.236 0.956   > TD3_acts_penc_s=2.txt
+echo 'exp2a penc 3' 
+./target/release/broccoli --env penc --depth 2 --num-nodes 3 --num-iters 100 --action-policy none --predicate-increment 0.1 0.1 --initial-state-values 0.5 0 --predicate-reasoning 1 --actions -1.318 -0.408 -0.251 -0.241 -0.236 -0.236 -0.236 1.078   > TD3_acts_penc_s=3.txt
+echo 'exp2a penc 4' 
+./target/release/broccoli --env penc --depth 2 --num-nodes 3 --num-iters 100 --action-policy none --predicate-increment 0.1 0.1 --initial-state-values 0.5 0 --predicate-reasoning 1 --actions -1.178 -0.383 -0.265 -0.260 -0.237 -0.236 -0.236 1.014   > TD3_acts_penc_s=4.txt

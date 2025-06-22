@@ -1,0 +1,16 @@
+Uniform Action Discretization
+Actions: [-1.00, -0.50, 0.00, 0.50, 1.00]
+Best Score: 95.85
+Number of trees considered: 3418885
+Number of environment calls: 3418885
+Runtime: 0h 2m 14s 
+
+Optimal tree:
+n0: [x_1 >= 0.00] (245)
+n1: [x_1 >= 0.01] (131)
+n2: [x_0 >= -0.80] (114)
+n3: a: 3 (74)
+n4: a: 2 (57)
+n5: a: 1 (92)
+n6: a: 2 (22)
+

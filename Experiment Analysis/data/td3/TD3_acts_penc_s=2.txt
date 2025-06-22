@@ -1,0 +1,39 @@
+Depth: 2
+Num initial states: 1
+	[0.5, 0.0]
+State 0: [0.5, 0.0]
+No Action Policy recognized
+Starting: Pendulum
+Predicate increments:
+	f0: 0.1
+	f1: 0.1
+with actions : [-2.00, -1.48, -1.30, 1.68]
+Starting broccoli...
+[d = 1, n = 1]
+...9591.824623043118 [1 nodes] (1.73ms)
+...9912.80005771349 [1 nodes] (1.74ms)
+...9916.783717384445 [1 nodes] (2.71ms)
+...9919.849147603076 [1 nodes] (3.29ms)
+[d = 2, n = 2]
+...9922.921170731968 [2 nodes] (61.00ms)
+...9924.367637526713 [2 nodes] (201.52ms)
+...9926.128063028564 [2 nodes] (355.09ms)
+...9926.522912534467 [2 nodes] (356.01ms)
+...9926.831696420206 [2 nodes] (539.99ms)
+...9940.502605490268 [2 nodes] (2.04s)
+[d = 2, n = 3]
+...9940.504606792949 [3 nodes] (124.49s)
+Trees with unused nodes: 1166473
+Runtime: 132.35s
+Num explicitly considered trees: 29438768
+Num environment calls: 29438768
+Score: 9940.504606792949
+Tree:
+n0: [x_0 >= -0.10] (30)
+n1: [x_0 >= 0.10] (18)
+n2: [x_1 >= 6.90] (12)
+n3: a: 3 (12)
+n4: a: 1 (6)
+n5: a: 3 (4)
+n6: a: 0 (8)
+
